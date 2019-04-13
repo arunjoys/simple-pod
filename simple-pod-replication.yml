@@ -11,9 +11,9 @@ spec:
       labels:
         app: nginx
         ver: 1.0
-  spec:
-    containers:
-    - name: simple-pod
-      image: nginx
-      ports:
-      - containerPort: 80 
+    spec:
+      containers:
+      - name: simple-pod
+        image: nginx
+        ports:
+        - containerPort: 80 
